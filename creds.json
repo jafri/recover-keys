@@ -1,0 +1,16 @@
+[
+    {
+        "index": 2,
+        "account": "dev",
+        "key_name": "abcc",
+        "key": {
+            "key": [
+                "ecc_public_key",
+                "03ed2c0ccf357c84db620996dcba77469014bee668aa4ef65db492b59fdc6da491"
+            ],
+            "user_presence": 2,
+            "rpid": "localhost"
+        },
+        "credential_id": "9FAE9D6005FF54EB58811D1BBAF6271D849E02C03CC78B36A08E4DB802A22FDBEADA7DFC9D8261A80DF838EA3D3CF3CD96E41DFA7CDC7E02A53D472C77DBB78C"
+    }
+]

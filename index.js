@@ -1,7 +1,7 @@
 const { JsonRpc } = require('@proton/js');
 const fs = require('fs');
 
-const rpc = new JsonRpc(['https://protontestnet.greymass.com/']);
+const rpc = new JsonRpc(['https://proton.greymass.com']);
 
 const getCredentials = async lower_bound => {
   const { rows, more, next_key } = await rpc.get_table_rows({
@@ -21,6 +21,8 @@ const getCredentials = async lower_bound => {
 
 const main = async () => {
   const credentials = await getCredentials();
+
+  console.log('credentials', credentials);
 
   fs.writeFileSync('./creds.json', JSON.stringify(credentials, null, 4));
 };
