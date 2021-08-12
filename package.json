@@ -3,5 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@proton/js": "^25.0.27"
   }
 }
