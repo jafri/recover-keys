@@ -64,7 +64,7 @@ const main = async () => {
 
   console.log('newCreds', newCreds);
 
-  fs.writeFileSync('./creds2.json', JSON.stringify(credentials, null, 4));
+  fs.writeFileSync('./creds2.json', JSON.stringify(newCreds, null, 4));
 };
 
 main();
