@@ -26,11 +26,11 @@ const main = async () => {
 
   let newCreds = [];
   for (const cred of credentials) {
-    const {
-      accounts: [account]
-    } = await rpc.get_accounts_by_authorizers([], [cred.key]);
+    const { accounts } = await rpc.get_accounts_by_authorizers([], [cred.key]);
 
-    if (account) {
+    if (accounts && accounts.length) {
+      const account = accounts[0];
+
       keyCounterByAccount[account.account_name] =
         (keyCounterByAccount[account.account_name] || 0) + 1;
 
