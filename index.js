@@ -1,4 +1,4 @@
-const { JsonRpc } = require('@proton/js');
+const { JsonRpc, Numeric, Serialize } = require('@proton/js');
 const fs = require('fs');
 
 const rpc = new JsonRpc(['https://proton.greymass.com']);
@@ -19,12 +19,52 @@ const getCredentials = async lower_bound => {
   }
 };
 
+const keyCounterByAccount = {};
+
 const main = async () => {
   const credentials = await getCredentials();
 
-  console.log('credentials', credentials);
+  let newCreds = [];
+  for (const cred of credentials) {
+    const {
+      accounts: [account]
+    } = await rpc.get_accounts_by_authorizers([], [cred.key]);
 
-  fs.writeFileSync('./creds.json', JSON.stringify(credentials, null, 4));
+    if (account) {
+      keyCounterByAccount[account.account_name] =
+        (keyCounterByAccount[account.account_name] || 0) + 1;
+
+      const key = Numeric.stringToPublicKey(cred.key);
+
+      const dBuf = new Serialize.SerialBuffer({ array: key.data });
+      const yBit = dBuf.get();
+      const x = dBuf.getUint8Array(32);
+      const userPresence = dBuf.get();
+      const rpid = dBuf.getString();
+
+      const ser = new Serialize.SerialBuffer();
+      ser.push(yBit);
+      ser.pushArray(x);
+      const serializedKey = Serialize.arrayToHex(ser.asUint8Array());
+
+      newCreds.push({
+        account: account.account_name,
+        key_name: `${cred.key_name} ${
+          keyCounterByAccount[account.account_name]
+        }`,
+        key: {
+          key: ['ecc_public_key', serializedKey],
+          user_presence: userPresence,
+          rpid: rpid
+        },
+        credential_id: cred.credential_id
+      });
+    }
+  }
+
+  console.log('newCreds', newCreds);
+
+  fs.writeFileSync('./creds2.json', JSON.stringify(credentials, null, 4));
 };
 
 main();
