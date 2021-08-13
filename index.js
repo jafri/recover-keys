@@ -47,11 +47,14 @@ const main = async () => {
       ser.pushArray(x);
       const serializedKey = Serialize.arrayToHex(ser.asUint8Array());
 
+      const keyExtension =
+        keyCounterByAccount[account.account_name] > 1
+          ? ` (${keyCounterByAccount[account.account_name]})`
+          : '';
+
       newCreds.push({
         account: account.account_name,
-        key_name: `${cred.key_name} (${
-          keyCounterByAccount[account.account_name]
-        })`,
+        key_name: `${cred.key_name}${keyExtension}`,
         key: {
           key: ['ecc_public_key', serializedKey],
           user_presence: userPresence,

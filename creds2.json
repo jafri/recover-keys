@@ -1,7 +1,7 @@
 [
     {
         "account": "mariametal",
-        "key_name": "Macbook Pro 1",
+        "key_name": "Macbook Pro (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -14,7 +14,7 @@
     },
     {
         "account": "sssssss",
-        "key_name": "Android 1",
+        "key_name": "Android (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -27,7 +27,7 @@
     },
     {
         "account": "rwcii",
-        "key_name": "YBK 1",
+        "key_name": "YBK (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -40,7 +40,7 @@
     },
     {
         "account": "devme",
-        "key_name": "yubi 1",
+        "key_name": "yubi (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -53,7 +53,7 @@
     },
     {
         "account": "sidme2",
-        "key_name": "yubi 1",
+        "key_name": "yubi (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -66,7 +66,7 @@
     },
     {
         "account": "mamacho123",
-        "key_name": "Macbook 1",
+        "key_name": "Macbook (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -79,7 +79,7 @@
     },
     {
         "account": "tokentester",
-        "key_name": "yubi 1",
+        "key_name": "yubi (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -92,7 +92,7 @@
     },
     {
         "account": "abcdeea",
-        "key_name": "yo 1",
+        "key_name": "yo (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -105,7 +105,7 @@
     },
     {
         "account": "faadfaf",
-        "key_name": "Yubi 1",
+        "key_name": "Yubi (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -118,7 +118,7 @@
     },
     {
         "account": "sidthekid1",
-        "key_name": "Tu 1",
+        "key_name": "Tu (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -131,7 +131,7 @@
     },
     {
         "account": "abcdeee",
-        "key_name": "iPHONE 1",
+        "key_name": "iPHONE (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -144,7 +144,7 @@
     },
     {
         "account": "supersonic",
-        "key_name": "Yubi 1",
+        "key_name": "Yubi (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -157,7 +157,7 @@
     },
     {
         "account": "rwctest",
-        "key_name": "Yubikey 1",
+        "key_name": "Yubikey (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -170,7 +170,7 @@
     },
     {
         "account": "supercoolguy",
-        "key_name": "MBP 1",
+        "key_name": "MBP (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -183,7 +183,7 @@
     },
     {
         "account": "kpax",
-        "key_name": "iPhone  1",
+        "key_name": "iPhone  (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -196,7 +196,7 @@
     },
     {
         "account": "mobileweb",
-        "key_name": "iOS 1",
+        "key_name": "iOS (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -209,7 +209,7 @@
     },
     {
         "account": "badradionz",
-        "key_name": "Big Red 1",
+        "key_name": "Big Red (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -222,7 +222,7 @@
     },
     {
         "account": "testacca1",
-        "key_name": "yub 1",
+        "key_name": "yub (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -235,7 +235,7 @@
     },
     {
         "account": "testwebauth2",
-        "key_name": "MB 1",
+        "key_name": "MB (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -248,7 +248,7 @@
     },
     {
         "account": "testacca2",
-        "key_name": "yu 1",
+        "key_name": "yu (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -261,7 +261,7 @@
     },
     {
         "account": "crisp",
-        "key_name": "Macbook 1",
+        "key_name": "Macbook (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -274,7 +274,7 @@
     },
     {
         "account": "crispyy",
-        "key_name": "macbook 1",
+        "key_name": "macbook (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -287,7 +287,7 @@
     },
     {
         "account": "testbasil",
-        "key_name": "MAC 1",
+        "key_name": "MAC (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -300,7 +300,7 @@
     },
     {
         "account": "testeespro",
-        "key_name": "Lolz 1",
+        "key_name": "Lolz (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -313,7 +313,7 @@
     },
     {
         "account": "test12345",
-        "key_name": "test 1",
+        "key_name": "test (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -326,7 +326,7 @@
     },
     {
         "account": "abcd222",
-        "key_name": "dasdasd 1",
+        "key_name": "dasdasd (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -339,7 +339,7 @@
     },
     {
         "account": "androidtest",
-        "key_name": "Android 1",
+        "key_name": "Android (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -352,7 +352,7 @@
     },
     {
         "account": "androidtest2",
-        "key_name": "Android 1",
+        "key_name": "Android (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -365,7 +365,7 @@
     },
     {
         "account": "inho",
-        "key_name": "iOS 1",
+        "key_name": "iOS (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -378,7 +378,7 @@
     },
     {
         "account": "technopotur",
-        "key_name": "Andro 1",
+        "key_name": "Andro (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -391,7 +391,7 @@
     },
     {
         "account": "azazazaz",
-        "key_name": "azazazaz 1",
+        "key_name": "azazazaz (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -404,7 +404,7 @@
     },
     {
         "account": "tendies",
-        "key_name": "tendies 1",
+        "key_name": "tendies (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -417,7 +417,7 @@
     },
     {
         "account": "asssxxx",
-        "key_name": "Dddd 1",
+        "key_name": "Dddd (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -430,7 +430,7 @@
     },
     {
         "account": "abcdef11",
-        "key_name": "Ccc 1",
+        "key_name": "Ccc (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -443,7 +443,7 @@
     },
     {
         "account": "abcdef11",
-        "key_name": "Yubi 2",
+        "key_name": "Yubi (2)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -456,7 +456,7 @@
     },
     {
         "account": "hthomso",
-        "key_name": "Test 1",
+        "key_name": "Test (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -469,7 +469,7 @@
     },
     {
         "account": "penguin",
-        "key_name": "penguin 1",
+        "key_name": "penguin (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -482,7 +482,7 @@
     },
     {
         "account": "dealmaker",
-        "key_name": "  1",
+        "key_name": "  (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -495,7 +495,7 @@
     },
     {
         "account": "unchained",
-        "key_name": "  1",
+        "key_name": "  (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -508,7 +508,7 @@
     },
     {
         "account": "important",
-        "key_name": "  1",
+        "key_name": "  (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -521,7 +521,7 @@
     },
     {
         "account": "recursion",
-        "key_name": "  1",
+        "key_name": "  (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -534,7 +534,7 @@
     },
     {
         "account": "exclusive",
-        "key_name": "  1",
+        "key_name": "  (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -547,7 +547,7 @@
     },
     {
         "account": "arizona",
-        "key_name": "  1",
+        "key_name": "  (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -560,7 +560,7 @@
     },
     {
         "account": "picture",
-        "key_name": "  1",
+        "key_name": "  (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -573,7 +573,7 @@
     },
     {
         "account": "thanksgiving",
-        "key_name": "  1",
+        "key_name": "  (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -586,7 +586,7 @@
     },
     {
         "account": "celt",
-        "key_name": "  1",
+        "key_name": "  (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -599,7 +599,7 @@
     },
     {
         "account": "foto",
-        "key_name": "  1",
+        "key_name": "  (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -612,7 +612,7 @@
     },
     {
         "account": "eric",
-        "key_name": "Proton iOS app 1",
+        "key_name": "Proton iOS app (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -625,7 +625,7 @@
     },
     {
         "account": "paul",
-        "key_name": "MBP Chrome TouchID 1",
+        "key_name": "MBP Chrome TouchID (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -638,7 +638,7 @@
     },
     {
         "account": "paul",
-        "key_name": "Yubikey 2",
+        "key_name": "Yubikey (2)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -651,7 +651,7 @@
     },
     {
         "account": "metalpayroll",
-        "key_name": "iOS Marshall 1",
+        "key_name": "iOS Marshall (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -664,7 +664,7 @@
     },
     {
         "account": "metal",
-        "key_name": "iOS 1",
+        "key_name": "iOS (1)",
         "key": {
             "key": [
                 "ecc_public_key",
@@ -677,7 +677,7 @@
     },
     {
         "account": "thomashp",
-        "key_name": "Face ID 1",
+        "key_name": "Face ID (1)",
         "key": {
             "key": [
                 "ecc_public_key",
