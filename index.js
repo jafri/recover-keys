@@ -49,9 +49,9 @@ const main = async () => {
 
       newCreds.push({
         account: account.account_name,
-        key_name: `${cred.key_name} ${
+        key_name: `${cred.key_name} (${
           keyCounterByAccount[account.account_name]
-        }`,
+        })`,
         key: {
           key: ['ecc_public_key', serializedKey],
           user_presence: userPresence,
